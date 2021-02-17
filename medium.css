@@ -1,0 +1,26 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#topInfo {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    padding-top: 5%;
+}
+
+#topInfoHeader {
+    grid-column: 1 / 2
+}
+
+#case {
+    grid-column: 1 / 2;
+}
+
+#deliverable {
+    grid-column: 2 / 3;
+}
+
+#release, #business, #photosBy {
+    grid-column: 3 / 4;
+}
